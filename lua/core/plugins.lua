@@ -141,6 +141,6 @@ require("lazy").setup({
     -- view structure file
     { 'preservim/tagbar', version = false },
 
-    { 'morhetz/gruvbox' }
-    
+    -- colors
+    { 'morhetz/gruvbox' },
 })
