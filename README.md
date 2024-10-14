@@ -1,4 +1,4 @@
-# KotNVim
+# KotNeoVim
 
 ## Установка
 
@@ -21,5 +21,5 @@ brew install git npm        # MacOS
 
 ```bash
 mkdir -p ~/.config/nvim
-git clone https://github.com/KotDimos/KotNvim.git ~/.config/nvim
+git clone https://github.com/KotDimos/KotNeoVim.git ~/.config/nvim
 ```
