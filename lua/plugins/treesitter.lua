@@ -17,7 +17,7 @@ require'nvim-treesitter.configs'.setup {
 	"go",
 	"rust",
 	"proto",
-	},
+  },
 
   sync_install = false,
   auto_install = true,
