@@ -1,9 +1,5 @@
 vim.g.mapleader = " "
 
--- Saving a file via Ctrl+S
-vim.keymap.set('i', '<C-s>', '<cmd>:w<CR>')
-vim.keymap.set('n', '<C-s>', '<cmd>:w<CR>')
-
 -- NvimTree
 vim.keymap.set('n', '<leader>t', ':NvimTreeToggle<CR>')
 vim.keymap.set('n', '<leader>tf', ':NvimTreeFocus<CR>')
