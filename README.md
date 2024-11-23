@@ -19,7 +19,20 @@ pacman -S git       # Arch
 brew install git    # MacOS
 ```
 
+Create directory for cofnig.
+
 ```bash
 mkdir -p ~/.config/nvim
+```
+
+Cloning config.
+
+ssh:
+```bash
+git clone git@github.com:KotDimos/KotNeoVim.git ~/.config/nvim
+```
+
+https:
+```bash
 git clone https://github.com/KotDimos/KotNeoVim.git ~/.config/nvim
 ```
