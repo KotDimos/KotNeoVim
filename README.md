@@ -12,11 +12,11 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 Команда для установки зависимых утилит:
 
 ```bash
-sudo dnf install git npm    # Fedora/RHEL
-sudo yum install git npm    # CentOS
-sudo pacman -S git npm      # Arch
-sudo apt install git npm    # Debian/Ubuntu
-brew install git npm        # MacOS
+apt install git     # Debian/Ubuntu
+dnf install git     # Fedora/RHEL
+yum install git     # CentOS
+pacman -S git       # Arch
+brew install git    # MacOS
 ```
 
 ```bash
