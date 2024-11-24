@@ -37,3 +37,7 @@ https:
 ```bash
 git clone https://github.com/KotDimos/KotNeoVim.git ~/.config/nvim
 ```
+
+Adding fonts
+
+[Link](https://github.com/romkatv/powerlevel10k#fonts) on official documents.
