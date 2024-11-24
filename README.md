@@ -1,5 +1,12 @@
 # KotNeoVim
 
+## Preview
+
+![image](https://raw.githubusercontent.com/KotDimos/KotNeoVim/refs/heads/images/images/1.png)
+![image](https://raw.githubusercontent.com/KotDimos/KotNeoVim/refs/heads/images/images/2.png)
+![image](https://raw.githubusercontent.com/KotDimos/KotNeoVim/refs/heads/images/images/3.png)
+![image](https://raw.githubusercontent.com/KotDimos/KotNeoVim/refs/heads/images/images/4.png)
+
 ## Install config
 
 If you have config neovim - create backup, and clear old config and cache.
