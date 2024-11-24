@@ -1,5 +1,10 @@
 # KotNeoVim
 
+A minimalistic nvim config aimed at Golang/Devops/SRE engineers.
+It is a lightweight replacement for Goland and VsCode,
+eliminating all unnecessary featuresd to be easily portable
+for running on servers and for deployment on Linux and MacOS systems.
+
 ## Preview
 
 ![image](https://raw.githubusercontent.com/KotDimos/KotNeoVim/refs/heads/images/images/1.png)
