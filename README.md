@@ -1,31 +1,20 @@
 # KotNeoVim
 
-## Установка
+## Install config
 
-Если есть уже neovim, сделайте бекап вашей конфигурации.
-И удалите текущую конфигурацию и очистите кеш.
+If you have config neovim - create backup, and clear old config and cache.
 
 ```bash
 rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ```
 
-Команда для установки зависимых утилит:
-
-```bash
-apt install git     # Debian/Ubuntu
-dnf install git     # Fedora/RHEL
-yum install git     # CentOS
-pacman -S git       # Arch
-brew install git    # MacOS
-```
-
-Create directory for cofnig.
+Create directory for neovim config
 
 ```bash
 mkdir -p ~/.config/nvim
 ```
 
-Cloning config.
+Cloning repository.
 
 ssh:
 ```bash
