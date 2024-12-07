@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     { 'nvim-treesitter/nvim-treesitter' },
     { 'neovim/nvim-lspconfig' },
-    
+
     -- Autocomplete support
     { 'hrsh7th/cmp-nvim-lsp' },
     { 'hrsh7th/cmp-buffer' },
@@ -22,12 +22,12 @@ require("lazy").setup({
     { 'hrsh7th/cmp-cmdline' },
     { 'hrsh7th/nvim-cmp' },
     { 'williamboman/mason.nvim' },
-    
+
     {
       'nvim-telescope/telescope.nvim', tag = '0.1.8',
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
-    
+
     -- dashboard
     {
       'nvimdev/dashboard-nvim',
@@ -86,10 +86,10 @@ require("lazy").setup({
           }
       end
     },
-    
+
     -- highlighting other uses of the word
     { 'RRethy/vim-illuminate' },
-    
+
     {
       "vhyrro/luarocks.nvim",
       priority = 1001, -- this plugin needs to run before anything else
@@ -97,7 +97,7 @@ require("lazy").setup({
         rocks = { "magick" },
       },
     },
-    
+
     {
       "folke/trouble.nvim",
       dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -107,13 +107,13 @@ require("lazy").setup({
         -- refer to the configuration section below
       },
     },
-    
+
     {
       'akinsho/toggleterm.nvim',
       version = "*",
       config = true
     },
-    
+
     {
       "folke/which-key.nvim",
       event = "VeryLazy",
@@ -127,16 +127,16 @@ require("lazy").setup({
         -- refer to the configuration section below
       }
     },
-    
+
     -- Выравнивание и перемещение текста
     -- Автоматическое открытие фигурных скобок, кавычек и т.д
     { 'echasnovski/mini.nvim', version = false },
     { 'echasnovski/mini.move', version = false },
     { 'echasnovski/mini.pairs', version = false },
-    
+
     -- Golang
     { 'fatih/vim-go', version = false },
-    
+
     -- view structure file
     { 'preservim/tagbar', version = false },
 
