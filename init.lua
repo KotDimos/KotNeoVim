@@ -2,6 +2,7 @@
 require('core.plugins')
 require('core.mappings')
 require('core.configs')
+require('core.autocommands')
 
 -- Plugins
 require('plugins.nvim-tree')
@@ -19,4 +20,3 @@ require('plugins.trouble')
 require('plugins.toggleterm')
 require('plugins.whichkey')
 require('plugins.mini')
-require('plugins.autocommands')
