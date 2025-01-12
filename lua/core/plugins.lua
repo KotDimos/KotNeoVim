@@ -23,6 +23,10 @@ require("lazy").setup({
     { 'hrsh7th/nvim-cmp' },
     { 'williamboman/mason.nvim' },
 
+    -- For vsnip users.
+    { 'hrsh7th/cmp-vsnip' },
+    { 'hrsh7th/vim-vsnip' },
+
     {
       'nvim-telescope/telescope.nvim', tag = '0.1.8',
       dependencies = { 'nvim-lua/plenary.nvim' }
