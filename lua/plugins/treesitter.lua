@@ -15,6 +15,7 @@ require'nvim-treesitter.configs'.setup {
 	"c",
 	"cpp",
 	"go",
+	"gomod",
 	"rust",
 	"proto",
   },
