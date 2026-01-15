@@ -1,7 +1,4 @@
--- Setup language servers.
--- local lspconfig = require('lspconfig')
-
--- https://github.com/golang/tools/blob/master/gopls/doc/vim.md#neovim-install
+-- https://github.com/golang/tools/blob/master/gopls/doc/editor/vim.md#neovim-install
 vim.lsp.config('gopls', {
     filetypes = { 'go' },
 })
