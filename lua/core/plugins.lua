@@ -22,6 +22,7 @@ require("lazy").setup({
     { 'hrsh7th/cmp-cmdline' },
     { 'hrsh7th/nvim-cmp' },
     { 'williamboman/mason.nvim' },
+    { 'williamboman/mason-lspconfig.nvim' },
 
     -- For vsnip users.
     { 'hrsh7th/cmp-vsnip' },

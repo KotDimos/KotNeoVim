@@ -7,3 +7,9 @@ require("mason").setup({
         }
     }
 })
+
+require("mason-lspconfig").setup({
+    ensure_installed = {
+        "pyright", -- or "pylsp", "jedi_language_server"
+    },
+})

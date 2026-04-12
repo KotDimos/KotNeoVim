@@ -41,3 +41,15 @@ git clone https://github.com/KotDimos/KotNeoVim.git ~/.config/nvim
 Adding fonts
 
 [Link](https://github.com/romkatv/powerlevel10k#fonts) on official documents.
+
+Install dependicies for lspconfig:
+
+for golang:
+```bash
+go install golang.org/x/tools/gopls@latest
+```
+
+for python3:
+```bash
+python3 -m pip install pyright --break-system-packages
+```

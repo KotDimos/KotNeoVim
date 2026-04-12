@@ -6,4 +6,3 @@ vim.lsp.config('gopls', {
 vim.lsp.config('pyright', {
     filetypes = { 'py' },
 })
-
