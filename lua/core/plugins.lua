@@ -124,8 +124,8 @@ require("lazy").setup({
       }
     },
 
-    -- Выравнивание и перемещение текста
-    -- Автоматическое открытие фигурных скобок, кавычек и т.д
+    -- Text alignment and movement
+    -- Automatic opening of curly braces, quotation marks, etc.
     { 'echasnovski/mini.nvim', version = false },
     { 'echasnovski/mini.move', version = false },
     { 'echasnovski/mini.pairs', version = false },
